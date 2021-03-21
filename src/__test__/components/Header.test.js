@@ -19,7 +19,7 @@ describe('<Header />', ()=>{
                 <Header />
             </ProviderMock>
         );
-        expect(header.find('.Header-title').text()).toEqual('Platzi');
+        expect(header.find('.Header-title').text()).toEqual('Platzi Store');
     })
 })
 
