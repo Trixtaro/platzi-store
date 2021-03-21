@@ -17,5 +17,5 @@ describe('Actions',()=>{
             payload
         };
         expect(actions.removeFromCart(payload)).toEqual(expected);
-    })
+    });
 })
